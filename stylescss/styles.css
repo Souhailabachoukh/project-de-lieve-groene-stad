@@ -14,65 +14,83 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 12px;
+    margin-top: 1em;
 }
 
 nav a {
     text-decoration: none;
     font-size: 13px;
+    color: #4A1B1D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
 
 nav img {
     max-width: 8em;
-    margin-left: -1em;
+    margin-left: -0.7em;
     display: block;
-    margin-top: -0.5em;
+    margin-top: -1em;
 }
 
 nav li {
     display: inline-block;
 }
 
-p {
+section p {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-family: "Zen Tokyo Zoo", serif;
+    font-weight: 595;
+    font-style: normal;
+    color: #4A1B1D;
+    font-size: 1.3em;
 }
 
 main img {
     max-width: 10em;
     width: 15em;
     height: 12em;
-    margin-left: 6em;
+    margin-left: 6.2em;
     margin-bottom: 1em;
     margin-top: -1em;
     border-radius: 5px
 }
 
-div {
+.oranje {
     background-color: #E0895F;
     border-radius: 20px;
     height: 28em;
-    padding-bottom: 1em;
-    margin-bottom: 2em;
+    padding-bottom: 0.5em;
+    margin-bottom: 3em;
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 0.5em;
+    padding-bottom: 1.3em;
+    font-family: "Zen Tokyo Zoo", serif;
+    font-weight: 590;
+    font-style: normal;
+    color: #4A1B1D;
+    font-size: 1.1em;
 }
 
-div p {
+.oranje p {
     max-width: 60%;
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
     text-align: left;
     margin-left: 1em;
+    margin-top: -1em;
 }
 
-div img {
+.oranje img {
     float: right;
     width: 4em;
     height: 5.4em;
@@ -87,6 +105,7 @@ main a {
     color: white;
     border-radius: 15px;
     margin-left: 4.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer {
@@ -95,9 +114,108 @@ footer {
     margin-top: 3em;
 }
 
+
+footer h2 {
+    margin-bottom: -1.5em;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 footer img {
-   max-width: 10%;
-   display: inline-block;
-   margin-left: 4em;
-   
+    max-width: 10%;
+ }
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+ }
+
+article p {
+    max-width: 65%;
+    text-align: left;
+    margin-left: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article img {
+    float: right;
+    width: 7em;
+    height: 7em;
+    margin-top: -7.6em;
+}
+
+.casettebandje img {
+    float: left;
+    margin-top: 1.9em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 9em;
+    height: 6em;
+}
+
+.casettebandje p {
+    text-align: left;
+    display: flex;
+    justify-content: right;
+}
+
+.casettebandje {
+    border-bottom: 2px solid rgba(14, 14, 14, 0.8);
+    border-top: 2px solid rgba(14, 14, 14, 0.8);
+    margin-bottom: 1.5em;
+}
+
+.locaties {
+    background-color: #94B5AB;
+    height: 13em;
+    border-radius: 20px;
+}
+
+.locaties h2 {
+    margin-bottom: -1em;
+}
+
+.locaties p {
+    margin-bottom: 1em;
+    font-size: 0.9em;
+    margin-left: 1.3em;
+    max-width: 70%;
+    text-align: left;
+}
+
+.locaties img {
+    height: 6em;
+    width: 4em;
+    margin-right: 1em;
+    float: right;
+    margin-top: -7em;
+}
+
+.tekst p {
+    text-align: left;
+    margin-bottom: -0.3em;
+}
+
+.tekst2 {
+    display: flex;
+    justify-content: left;
+}
+
+.tekst2 p {
+    text-align: left;
+    max-width: 70%;
+}
+
+.tekst2 img {
+    width: 25%;
+    height: 25%;
+    margin-left: 1em;
+    margin-top: 1em;
 }
